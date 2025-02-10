@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: antiquewhite;
+    height: 24rem;
+    width: 35rem;
+    margin: 2rem;
+}
+.container h1{
+    text-align: center;
+}
+p,input,h3,button{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+input{
+    font-weight: 600;
+    font-size: large;
+    overflow: auto;
+    height: 3rem;
+    width: 30rem;
+}
+.btn{
+    margin-top: 1rem;
+    background-color: rgb(94, 223, 94);
+    font-size: medium;
+    text-align: center;
+    width: 30rem;
+    height: 2rem;
+}
